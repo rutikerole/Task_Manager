@@ -10,7 +10,7 @@ function AboutPage() {
       <div className="about-content">
         <div className="about-text">
           <p>
-            Hello! I'm Rutik Erole, a passionate web developer who loves
+            Hello, I'm Rutik Erole, a passionate web developer who loves
             building web applications using modern technologies like React, Node.js, and more. 
             I enjoy tackling complex problems and turning ideas into fully functional software.
           </p>
