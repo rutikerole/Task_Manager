@@ -1,0 +1,92 @@
+/* About page main container */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #f9fafb;
+  min-height: 100vh;
+}
+
+.about-container h2 {
+  font-size: 2rem;
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+/* About text section */
+.about-text {
+  max-width: 800px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  color: #4b5563;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Skills section */
+.skills {
+  text-align: center;
+}
+
+.skills h3 {
+  font-size: 1.5rem;
+  color: #111827;
+  margin-bottom: 20px;
+}
+
+/* Skills icons */
+.skills-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 150px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.skill-icon {
+  font-size: 40px;
+  color: #3b82f6;
+  margin-bottom: 10px;
+}
+
+.skill-item p {
+  font-size: 1rem;
+  color: #4b5563;
+  font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .skills-list {
+    gap: 20px;
+  }
+
+  .skill-item {
+    width: 120px;
+  }
+
+  .about-container {
+    padding: 20px;
+  }
+}
