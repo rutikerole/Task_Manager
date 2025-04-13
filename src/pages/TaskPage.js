@@ -8,8 +8,9 @@ function TaskPage() {
   const [tasks, setTasks] = useState([]);     // for storing all the tasks in backend
   const [editIndex, setEditIndex] = useState(null);// for storing index of task edited
 
-  const apiURL = "http://localhost:5000/tasks";  // this is the base URL to connect to your backend
-  //const apiURL = "https://task-manger-backend-rho.vercel.app/tasks";
+   const apiURL = "http://localhost:5000/tasks";  // this is the base URL to connect to your backend
+  // const apiURL = "https://task-manger-backend-rho.vercel.app/tasks";
+ 
 
   // here we fetching our all tasks from backend
   useEffect(() => {
